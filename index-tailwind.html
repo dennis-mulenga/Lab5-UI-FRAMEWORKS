@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book-it (Tailwind)</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-xl font-bold">Book-it</a>
+      <ul class="flex space-x-6">
+        <li><a href="index-tailwind.html" class="hover:text-green-400">Home</a></li>
+        <li><a href="services-bootstrap.html" class="hover:text-green-400">Services</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-green-600 text-white py-16 text-center">
+    <div class="container mx-auto">
+      <h1 class="text-4xl font-bold mb-4">Welcome to Book-it Zambia</h1>
+      <p class="text-xl">Discover amazing booking services tailored for you</p>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="container mx-auto my-12 px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">Our Features</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Feature 1 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+        <img src="images/service1.jpg" alt="Book Hotel" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">Book Hotel</h3>
+          <p class="text-gray-600 mb-4">Find a closest hotel that suits your budget</p>
+          <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition-colors">
+            Learn More
+          </button>
+        </div>
+      </div>
+      
+      <!-- Feature 2 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+        <img src="../images/service2.jpg" alt="Book Transport" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">Book Transport</h3>
+          <p class="text-gray-600 mb-4">Choose the mode of transport that suits your travel</p>
+          <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition-colors">
+            Learn More
+          </button>
+        </div>
+      </div>
+      
+      <!-- Feature 3 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+        <img src="../images/service3.jpg" alt="Plan Event" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">Plan an Event</h3>
+          <p class="text-gray-600 mb-4">Find perfect venues for your special occasions</p>
+          <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition-colors">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 Book-it Zambia. All rights reserved.</p>
+  </footer>
+</body>
+</html>

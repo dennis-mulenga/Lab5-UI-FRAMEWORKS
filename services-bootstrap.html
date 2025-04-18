@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book-it Services (Bootstrap)</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Minimal custom CSS only for demo purposes */
+    .service-img {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Book-it</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Services</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Services Section -->
+  <div class="container my-5">
+    <h1 class="text-center mb-4">Our Services</h1>
+    
+    <div class="alert alert-info">
+      <strong>New Feature!</strong> Book multiple services together and get 10% discount.
+    </div>
+    
+    <div class="row g-4">
+      <!-- Service Card 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="../images/service1.jpg" class="card-img-top service-img" alt="Accommodation">
+          <div class="card-body">
+            <h5 class="card-title">Accommodation Reservation</h5>
+            <p class="card-text">Book your suitable place to stay</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>    
+      <!-- Service Card 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="../images/service2.jpg" class="card-img-top service-img" alt="Transport">
+          <div class="card-body">
+            <h5 class="card-title">Transport Reservation</h5>
+            <p class="card-text">Feel free to travel anywhere in Zambia</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Service Card 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="../images/service3.jpg" class="card-img-top service-img" alt="Events">
+          <div class="card-body">
+            <h5 class="card-title">Event Booking</h5>
+            <p class="card-text">Find a suitable place to host your event</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
